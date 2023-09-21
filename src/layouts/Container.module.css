@@ -1,0 +1,25 @@
+.container{
+     width: 1600px;
+     display: flex;
+     justify-content: space-between;
+     margin: 0 auto;
+     flex-wrap: wrap;
+    
+}
+
+.min_height
+{
+    margin: 0 auto;
+    background: #d2ecde;
+
+}
+
+
+.start{
+    justify-content: flex-start;
+}
+
+.columm{
+    flex-direction: column;
+    justify-content: flex-start;
+}
