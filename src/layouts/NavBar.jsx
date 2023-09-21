@@ -6,7 +6,7 @@ function Navbar(){
     return(
         <>
         
-    <nav className="navbar navbar-expand-lg bg-body-tertiary w-auto p-3">
+    <nav className="navbar  navbar-expand-lg bg-body-tertiary w-auto p-3">
         <div className="container-fluid">
                 <a className="navbar-brand" href="/"><img src="logo.png" height={100} width={150} alt=""/></a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

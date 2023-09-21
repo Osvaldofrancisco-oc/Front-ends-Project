@@ -2,26 +2,29 @@ function Home(){
 
     return(
         <>
-        <h1>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae adipisci nostrum distinctio consectetur! Suscipit ratione corporis minus hic molestias facilis, quos, nesciunt quam deleniti aliquid nobis voluptatem dignissimos harum quis?
-        </h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ab accusantium officia hic reiciendis neque dolorum voluptatem nam culpa eveniet? Ipsum doloribus nobis, cumque voluptas totam reiciendis eveniet quisquam asperiores!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ab accusantium officia hic reiciendis neque dolorum voluptatem nam culpa eveniet? Ipsum doloribus nobis, cumque voluptas totam reiciendis eveniet quisquam asperiores!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ab accusantium officia hic reiciendis neque dolorum voluptatem nam culpa eveniet? Ipsum doloribus nobis, cumque voluptas totam reiciendis eveniet quisquam asperiores!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ab accusantium officia hic reiciendis neque dolorum voluptatem nam culpa eveniet? Ipsum doloribus nobis, cumque voluptas totam reiciendis eveniet quisquam asperiores!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ab accusantium officia hic reiciendis neque dolorum voluptatem nam culpa eveniet? Ipsum doloribus nobis, cumque voluptas totam reiciendis eveniet quisquam asperiores!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ab accusantium officia hic reiciendis neque dolorum voluptatem nam culpa eveniet? Ipsum doloribus nobis, cumque voluptas totam reiciendis eveniet quisquam asperiores!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ab accusantium officia hic reiciendis neque dolorum voluptatem nam culpa eveniet? Ipsum doloribus nobis, cumque voluptas totam reiciendis eveniet quisquam asperiores!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ab accusantium officia hic reiciendis neque dolorum voluptatem nam culpa eveniet? Ipsum doloribus nobis, cumque voluptas totam reiciendis eveniet quisquam asperiores!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ab accusantium officia hic reiciendis neque dolorum voluptatem nam culpa eveniet? Ipsum doloribus nobis, cumque voluptas totam reiciendis eveniet quisquam asperiores!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ab accusantium officia hic reiciendis neque dolorum voluptatem nam culpa eveniet? Ipsum doloribus nobis, cumque voluptas totam reiciendis eveniet quisquam asperiores!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ab accusantium officia hic reiciendis neque dolorum voluptatem nam culpa eveniet? Ipsum doloribus nobis, cumque voluptas totam reiciendis eveniet quisquam asperiores!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ab accusantium officia hic reiciendis neque dolorum voluptatem nam culpa eveniet? Ipsum doloribus nobis, cumque voluptas totam reiciendis eveniet quisquam asperiores!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ab accusantium officia hic reiciendis neque dolorum voluptatem nam culpa eveniet? Ipsum doloribus nobis, cumque voluptas totam reiciendis eveniet quisquam asperiores!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ab accusantium officia hic reiciendis neque dolorum voluptatem nam culpa eveniet? Ipsum doloribus nobis, cumque voluptas totam reiciendis eveniet quisquam asperiores!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ab accusantium officia hic reiciendis neque dolorum voluptatem nam culpa eveniet? Ipsum doloribus nobis, cumque voluptas totam reiciendis eveniet quisquam asperiores!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ab accusantium officia hic reiciendis neque dolorum voluptatem nam culpa eveniet? Ipsum doloribus nobis, cumque voluptas totam reiciendis eveniet quisquam asperiores!</p>
-
+       <div id="carouselExample" className="carousel slide">
+        <div className="carousel-inner">
+            <div className="carousel-item active">
+                
+                <img src="banner-family.jpg" className="d-block w-100"/>
+                
+            </div>
+            <div className="carousel-item">
+                <img src="banner-farmacia.jpg" className="d-block w-100"/>
+            </div>
+             <div className="carousel-item">
+                <img src="equipa-kfp.png" className="d-block w-100"/>
+             </div>
+         </div>
+        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span className="visually-hidden">anterior</span>
+        </button>
+        <button className="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+            <span className="visually-hidden">seguinte</span>
+        </button>
+    </div>
         </>
     )
 }
